@@ -27,7 +27,7 @@ const MainMenu = ({ onNewGame, onContinue, onSettings, hasSaveData, onChapter3 }
     { label: 'NEW GAME', action: 'new' },
     { label: 'CONTINUE', action: 'continue', disabled: !hasSaveData },
    // { label: 'CHAPTER2', action: 'chapter2' },
-    { label: 'CHAPTER3', action: 'chapter3' },
+    //{ label: 'CHAPTER3', action: 'chapter3' },
     { label: 'SETTINGS', action: 'settings' },
     { label: 'CREDITS', action: 'credits' }
   ];
